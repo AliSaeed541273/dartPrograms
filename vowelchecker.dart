@@ -3,7 +3,7 @@ void main() {
   print('Enter an Character : ');
   String? character = stdin.readLineSync();
   
-  if (character.length == 1&& charactor!=" ") {
+  if (character!=null && character.length == 1 && charactor!=" ") {
     switch (character) {
       case 'a':
         print('It is a vowel');
